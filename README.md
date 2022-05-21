@@ -31,6 +31,7 @@ Predict demential with wearable data
   | RF         |   0.88    |  0.5   |           |          |
   | XGB        |   0.87    |        |           |          |
   | LGBM       |   0.87    |        |           |          |
+  | KNN        |   0.79    |        |           |          |
   
   
 <br>
