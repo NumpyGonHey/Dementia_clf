@@ -2,3 +2,6 @@ Dataset
 .ipynb_checkpoints
 *.csv
 catboost_info
+*.dot
+*.png
+pic_dataset
