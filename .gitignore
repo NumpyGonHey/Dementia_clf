@@ -3,3 +3,4 @@ Dataset
 *.csv
 catboost_info
 *.dot
+*.png
