@@ -1,6 +1,5 @@
-# Demential_clf
-Predict demential with wearable data 
-
+# Dementia_clf
+Dementia Classification Prediction on Lif-log Dataset Project  
 웨어러블 데이터 분석을 통한 치매 예측 프로젝트 
 
 <br>
@@ -26,13 +25,17 @@ Predict demential with wearable data
 
 ## 🚀 3. BenchMarking 
 
-  |    Model   |  accuracy | recall | precision | f1 score |
-  |------------|:----------|:-------|:----------|:---------|
-  | RF         |   0.88    |  0.5   |           |          |
-  | XGB        |   0.87    |        |           |          |
-  | LGBM       |   0.87    |        |           |          |
-  | KNN        |   0.79    |        |           |          |
-  
+  |           Model           |  accuracy |       recall       |      precision     |      f1 score      |         Optimal Strategy       |
+  |---------------------------|:----------|:-------------------|:-------------------|:-------------------|:-------------------------------|
+  | Logistic Regression       |   0.67    |                    |                    |                    | RobustScaler                   |
+  | KNN                       |   0.79    |                    |                    |                    | RobustScaler                   |
+  | **Random Forest**         |   0.88    | 0.97 / 0.83 / 0.70 | 0.86 / 0.94 / 0.93 | 0.92 / 0.88 / 0.80 | Stratified KFold, RobustScaler |
+  | AdaBoost                  |   0.88    |                    |                    |                    | Stratified KFold               |
+  | XGB                       |   0.87    |                    |                    |                    | Stratified KFold               |
+  | LGBM                      |   0.87    |                    |                    |                    | Stratified KFold               |  
+  | CatBoost                  |   0.87    |                    |                    |                    | Stratified KFold               |  
+  | **RF learned Latent Vec** |   0.87    | 0.97 / 0.71 / 0.68 | 0.85 / 0.99 / 0.92 | 0.91 / 0.83 / 0.78 | Stratified KFold               |  
+  | **RF + ConAE**            |   0.88    | 0.97 / 0.84 / 0.70 | 0.86 / 0.92 / 0.92 | 0.91 / 0.88 / 0.79 | Stratified KFold               |  
   
 <br>
 
