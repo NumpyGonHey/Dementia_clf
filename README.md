@@ -5,7 +5,7 @@ Dementia Classification Prediction on Lif-log Dataset Project
 <br>
 
 ## 🔎 Overview 
-1. [EDA & Preprocessing](https://github.com/NumpyGonHey/Demential_clf#-2-EDA&Preprocessing)
+1. [EDA & Preprocessing](https://github.com/NumpyGonHey/Dementia_clf/blob/master/EDA_report_code_total.ipynb)
 2. [Modeling](https://github.com/NumpyGonHey/Demential_clf#-2-Modeling)
 3. [BenchMarking](https://github.com/NumpyGonHey/Demential_clf#-3-BenchMarking)
 4. [Rule](https://github.com/NumpyGonHey/Demential_clf#-4-Rule)
