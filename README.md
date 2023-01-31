@@ -2,7 +2,7 @@
 Dementia Classification Prediction on Lif-log Dataset Project  
 웨어러블 데이터 분석을 통한 치매 예측 프로젝트  
 
-[Notation](https://www.notion.so/220610-91c2c3dc48f5420db90c0863e0d24dcb)
+[Notion](https://www.notion.so/220610-91c2c3dc48f5420db90c0863e0d24dcb)
 
 <br>
 
